@@ -11,6 +11,7 @@ import InstagramCTA from './components/InstagramCTA';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import FloatingCTA from './components/FloatingCTA';
+import ErrorBoundary from './components/ErrorBoundary';
 import { useActiveSection } from './hooks';
 
 const App: React.FC = () => {
@@ -18,22 +19,24 @@ const App: React.FC = () => {
     const activeSection = useActiveSection(sectionIds);
 
     return (
-        <div className="bg-white text-gray-800">
-            <Header activeSection={activeSection} />
-            <main>
-                <Hero />
-                <ValueProps />
-                <Flavors />
-                <Packages />
-                <HowItWorks />
-                <Events />
-                <Testimonials />
-                <InstagramCTA />
-                <FAQ />
-            </main>
-            <Footer />
-            <FloatingCTA />
-        </div>
+        <ErrorBoundary>
+            <div className="bg-white text-gray-800 antialiased">
+                <Header activeSection={activeSection} />
+                <main>
+                    <Hero />
+                    <ValueProps />
+                    <Flavors />
+                    <Packages />
+                    <HowItWorks />
+                    <Events />
+                    <Testimonials />
+                    <InstagramCTA />
+                    <FAQ />
+                </main>
+                <Footer />
+                <FloatingCTA />
+            </div>
+        </ErrorBoundary>
     );
 };
 
