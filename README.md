@@ -125,21 +125,39 @@ The project uses Tailwind CSS. Update classes in component files or extend `tail
 1. Create a new file in `components/`
 2. Import and use in `App.tsx`
 
-## 🚀 Deployment
+## 🚀 Deployment (Main branch /docs hosting)
 
-### Deploy to GitHub Pages
+This repository is configured to build static files into the `docs/` folder so GitHub Pages can serve the site directly from the `main` branch `docs` folder (no GitHub Actions required).
 
 1. **Install dependencies (if not done)**
    ```bash
    npm install
    ```
 
-2. **Build and deploy**
+2. **Build production files into `docs/`**
    ```bash
-   npm run deploy
+   npm run build
    ```
 
-The site will be automatically deployed to: `https://charansaikondilla.github.io/mrandmrspopcorn/`
+3. **Commit and push the `docs/` folder to the `main` branch**
+   ```bash
+   git add docs
+   git commit -m "chore: build production docs for GitHub Pages"
+   git push origin main
+   ```
+
+4. **Enable GitHub Pages**
+   - Go to: https://github.com/charansaikondilla/mrandmrspopcorn/settings/pages
+   - Under "Build and deployment" select:
+     - Source: **main**
+     - Folder: **/docs**
+   - Save
+
+After saving, GitHub Pages will serve the contents of the repository's `docs/` folder. Your site will be available at:
+
+`https://charansaikondilla.github.io/mrandmrspopcorn/`
+
+Note: You can automate the step of committing `docs/` with the `deploy-main.ps1` helper script (see repository root) if you prefer a one-command workflow on Windows.
 
 ## 📱 Mobile Optimization
 

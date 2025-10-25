@@ -9,7 +9,7 @@ export default defineConfig({
   },
   plugins: [react()],
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     sourcemap: false,
     rollupOptions: {
       output: {
