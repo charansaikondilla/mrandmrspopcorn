@@ -159,6 +159,16 @@ After saving, GitHub Pages will serve the contents of the repository's `docs/` f
 
 Note: You can automate the step of committing `docs/` with the `deploy-main.ps1` helper script (see repository root) if you prefer a one-command workflow on Windows.
 
+### One-command deploy (Windows)
+
+If you're on Windows you can run the npm script to build and push `docs/` in one step (uses PowerShell):
+
+```powershell
+npm run deploy:main
+```
+
+This runs the `deploy-main.ps1` script which builds into `docs/`, commits `docs/`, and pushes to `main`.
+
 ## 📱 Mobile Optimization
 
 The site is fully optimized for mobile devices with:
