@@ -1,0 +1,223 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.mrandmrspopcorn.in/#organization",
+      "name": "Mr & Mrs Popcorn",
+      "alternateName": "Mr&Mrs Popcorn",
+      "url": "https://www.mrandmrspopcorn.in/",
+      "logo": "https://i.ibb.co/7HTbqqJ/image.png",
+      "description": "Hand-popped gourmet popcorn in Hyderabad. Premium flavors for events, parties, and everyday snacking. Custom branding available for corporate events.",
+      "telephone": "+91-7995597570",
+      "email": "charansaikondilla@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Survey 305 To 309B, Plot 13 & 83P, 310/P, Seetha Ramanjaneya Shopping Complex, Sri Ram Nagar Colony, NH 65, Chanda Nagar",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Telangana",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "17.4949",
+        "longitude": "78.3371"
+      },
+      "sameAs": [
+        "https://www.instagram.com/mrmrs.popcorn",
+        "https://wa.me/917995597570"
+      ],
+      "priceRange": "₹₹",
+      "servesCuisine": "Snacks",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "6",
+        "bestRating": "5",
+        "worstRating": "5"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "21:00"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.mrandmrspopcorn.in/#website",
+      "url": "https://www.mrandmrspopcorn.in/",
+      "name": "Mr & Mrs Popcorn",
+      "description": "Hand-Popped Gourmet Popcorn in Hyderabad",
+      "publisher": {
+        "@id": "https://www.mrandmrspopcorn.in/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.mrandmrspopcorn.in/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.mrandmrspopcorn.in/#webpage",
+      "url": "https://www.mrandmrspopcorn.in/",
+      "name": "Mr & Mrs Popcorn — Hand-Popped Gourmet Popcorn",
+      "isPartOf": {
+        "@id": "https://www.mrandmrspopcorn.in/#website"
+      },
+      "about": {
+        "@id": "https://www.mrandmrspopcorn.in/#organization"
+      },
+      "description": "Premium gourmet popcorn in Hyderabad. Fresh, hand-popped flavors including Classic Salted, Butter Bliss, Caramel Crunch, Spicy Masala, Cheddar Dream, and Chocolate Drizzle. Perfect for events and parties."
+    },
+    {
+      "@type": "ItemList",
+      "name": "Popcorn Flavors",
+      "description": "Gourmet popcorn flavors available at Mr & Mrs Popcorn",
+      "itemListElement": [
+        {
+          "@type": "Product",
+          "position": 1,
+          "name": "Classic Salted Popcorn",
+          "description": "Timeless and crisp; great for all ages",
+          "image": "https://i.ibb.co/rRmDk4XB/unnamed.jpg",
+          "brand": {
+            "@type": "Brand",
+            "name": "Mr & Mrs Popcorn"
+          },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@type": "Product",
+          "position": 2,
+          "name": "Butter Bliss Popcorn",
+          "description": "Rich, creamy butter aroma (all-natural)",
+          "image": "https://i.ibb.co/67wNtjNN/unnamed.jpg",
+          "brand": {
+            "@type": "Brand",
+            "name": "Mr & Mrs Popcorn"
+          },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@type": "Product",
+          "position": 3,
+          "name": "Caramel Crunch Popcorn",
+          "description": "Sticky, golden caramel with a light crunch",
+          "image": "https://i.ibb.co/KjqNVPC5/unnamed.jpg",
+          "brand": {
+            "@type": "Brand",
+            "name": "Mr & Mrs Popcorn"
+          },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@type": "Product",
+          "position": 4,
+          "name": "Spicy Masala Popcorn",
+          "description": "Tangy, aromatic spices for guests who love heat",
+          "image": "https://i.ibb.co/SDkRP29f/unnamed.jpg",
+          "brand": {
+            "@type": "Brand",
+            "name": "Mr & Mrs Popcorn"
+          },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@type": "Product",
+          "position": 5,
+          "name": "Cheddar Dream Popcorn",
+          "description": "Real cheese powder for savory lovers",
+          "image": "https://i.ibb.co/7xfh0GyT/unnamed.jpg",
+          "brand": {
+            "@type": "Brand",
+            "name": "Mr & Mrs Popcorn"
+          },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@type": "Product",
+          "position": 6,
+          "name": "Chocolate Drizzle Popcorn",
+          "description": "Premium chocolate drizzle over warm popcorn",
+          "image": "https://i.ibb.co/5pxyTs0/unnamed.jpg",
+          "brand": {
+            "@type": "Brand",
+            "name": "Mr & Mrs Popcorn"
+          },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "INR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long before my event should I order?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For customized event boxes, please order at least 3-5 days in advance. For local home orders, same-day pickup may be available depending on our schedule. Please call to confirm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer vegan/dairy-free options?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! Our Classic Salted, Spicy Masala, and a special version of Caramel Crunch can be made vegan. Please specify your dietary needs when ordering."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you print our company logo on boxes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely! We offer custom branding and logo printing for corporate orders above a minimum quantity. Contact us for lead times and a quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What payment methods do you accept?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We accept UPI (GPay, PhonePe, etc.), all major credit/debit cards, and Cash on Delivery for select areas in Hyderabad."
+          }
+        }
+      ]
+    }
+  ]
+}
