@@ -1,8 +1,8 @@
 import type { Flavor, Package, Testimonial, FaqItem } from './types';
 
 export const CONTACT = {
-    phone: '7995597570',
-    whatsappLink: `https://wa.me/917995597570?text=${encodeURIComponent("Hi Mr & Mrs Popcorn! I'd like to place an order.")}`,
+    phone: '7200011747',
+    whatsappLink: `https://wa.me/917200011747?text=${encodeURIComponent("Hi Mr & Mrs Popcorn! I'd like to place an order.")}`,
     email: 'charansaikondilla@gmail.com',
     instagramHandle: '@mrandmrspopcorn',
     instagramUrl: 'https://www.instagram.com/mrandmrspopcorn',
