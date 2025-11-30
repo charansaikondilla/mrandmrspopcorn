@@ -24,13 +24,15 @@ const Hero: React.FC = () => {
                     🎉 Fresh Batches Daily!
                 </div>
                 
-                <h1 className="text-4xl md:text-6xl font-black text-gray-800 leading-tight fade-in">
+                <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-gray-900 leading-tight fade-in mb-4">
                     Mr & Mrs Popcorn
                 </h1>
-                <h2 className="text-4xl md:text-7xl font-black gradient-text leading-tight mt-2 fade-in" style={{animationDelay: '0.2s'}}>
-                    Homemade, Hand-popped, Heart-approved.
+                <h2 className="text-3xl md:text-5xl lg:text-6xl font-black leading-tight fade-in" style={{animationDelay: '0.2s'}}>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-orange-500 to-red-500">
+                        Homemade, Hand-popped, Heart-approved.
+                    </span>
                 </h2>
-                <p className="mt-6 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto fade-in" style={{animationDelay: '0.4s'}}>
+                <p className="mt-6 text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed fade-in" style={{animationDelay: '0.4s'}}>
                     Irresistible flavors for parties, events and cozy nights in — made with love and only natural ingredients. Order party packs, branded event boxes, or single-serve bags.
                 </p>
                 

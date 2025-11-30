@@ -7,7 +7,7 @@ const Events: React.FC = () => {
             <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     <div className="md:w-1/2">
-                        <img src="https://i.ibb.co/mCb3Q5S/popcorn-event-station.jpg" alt="A vibrant popcorn station setup for a party with various toppings." className="rounded-lg shadow-2xl w-full" />
+                        <img src="https://i.ibb.co/99Z9WJwC/image.png" alt="A vibrant popcorn station setup for a party with various toppings." className="rounded-lg shadow-2xl w-full" />
                     </div>
                     <div className="md:w-1/2">
                         <h2 className="text-4xl font-black text-gray-800">Make Your Event Pop!</h2>
